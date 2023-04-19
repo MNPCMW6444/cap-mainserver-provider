@@ -69,4 +69,6 @@ const ProvideMainServer = ({
   }
 };
 
+export { MainServerContext };
+
 export default ProvideMainServer;
