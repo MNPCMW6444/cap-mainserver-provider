@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/CapHub-Funding/mainserver-provider#readme",
   "devDependencies": {
+    "@types/node": "^18.15.11",
     "@types/react": "^18.0.37",
     "typescript": "^5.0.4"
   },
