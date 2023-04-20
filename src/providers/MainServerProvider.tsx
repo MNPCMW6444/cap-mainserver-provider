@@ -69,4 +69,4 @@ const ProvideMainServer = ({
     return <div>{status}</div>;
   }
 };
-export default ProvideMainServer;
+export { ProvideMainServer };

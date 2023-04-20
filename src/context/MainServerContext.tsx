@@ -10,5 +10,6 @@ const axiosInstance = axios.create({
     "Content-Type": "application/json",
   },
 });
+const MainServerContext = createContext(axiosInstance);
 
-export const MainServerContext = createContext(axiosInstance);
+export { MainServerContext };
