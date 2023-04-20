@@ -68,7 +68,4 @@ const ProvideMainServer = ({
     return <div>{status}</div>;
   }
 };
-
-export { MainServerContext };
-
 export default ProvideMainServer;
