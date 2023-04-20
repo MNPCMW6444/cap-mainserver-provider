@@ -1,7 +1,8 @@
 {
   "name": "@caphub-funding/mainserver-provider",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "mainserver provider for react apps",
+  "type": "module",
   "main": "dist/index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",
