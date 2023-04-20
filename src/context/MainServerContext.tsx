@@ -1,6 +1,6 @@
 import axios from "axios";
-import React from "react";
 import domain from "../config/domain";
+import { createContext } from "react";
 
 const axiosInstance = axios.create({
   baseURL: domain,
@@ -11,4 +11,4 @@ const axiosInstance = axios.create({
   },
 });
 
-export const MainServerContext = React.createContext(axiosInstance);
+export const MainServerContext = createContext(axiosInstance);
