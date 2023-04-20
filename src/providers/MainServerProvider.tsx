@@ -7,6 +7,7 @@ import React, {
 } from "react";
 import domain from "../config/domain";
 import { MainServerContext } from "../context/MainServerContext";
+import { AxiosInstance } from "axios";
 
 interface ProvideMainServerProps {
   children: ReactNode;
@@ -20,7 +21,7 @@ const CHECKING_MESSAGE = "Checking server availability...";
 const BAD_MESSAGE = "Server is not available. Please try again later.";
 const GOOD_STATUS = "good";
 
-const checkServerAvailability = async (axiosInstance: any) => {
+const checkServerAvailability = async (axiosInstance: AxiosInstance) => {
   try {
     return (await axiosInstance.get(domain + "areyoualive")).data.answer ===
       "yes"
