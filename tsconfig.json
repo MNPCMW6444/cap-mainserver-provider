@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "outDir": "dist",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -14,10 +17,10 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": false,
-    "declaration": true,
-    "declarationMap": true,
+    "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "index.d.ts"]
+  "include": [
+    "src"
+  ]
 }
