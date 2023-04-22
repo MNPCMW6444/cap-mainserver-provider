@@ -1,4 +1,4 @@
-declare module '@caphub-funding/mainserver-provider
+declare module "@caphub-funding/mainserver-provider";
 
 import * as React from "react";
 
