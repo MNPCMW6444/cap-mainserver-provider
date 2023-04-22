@@ -1,7 +1,15 @@
 {
-  "name": "mainserver-provider",
-  "version": "0.2.1",
-  "private": true,
+  "name": "@caphub-funding/mainserver-provider",
+  "version": "0.2.2",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "restricted"
+  },
+  "author": "Michael Nusair",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CapHub-Funding/mainserver-provider.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
