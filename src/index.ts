@@ -1,4 +1,3 @@
-import { MainServerContext } from "./context/MainServerContext";
-import { ProvideMainServer } from "./providers/MainServerProvider";
+export { ProvideMainServer default as ProvideMainServer } from "./providers/ProvideMainServer";
 
-export { ProvideMainServer, MainServerContext };
+export { MainServerContext } from "./context/MainServerContext";
