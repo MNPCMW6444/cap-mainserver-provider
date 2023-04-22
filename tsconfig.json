@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "outDir": "dist",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -18,5 +19,5 @@
     "declarationMap": true,
     "jsx": "react-jsx"
   },
-  "include": ["src"]
+  "include": ["src", "index.d.ts"]
 }
