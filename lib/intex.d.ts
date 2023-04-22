@@ -1,3 +1,5 @@
+declare module '@caphub-funding/mainserver-provider
+
 import * as React from "react";
 
 export interface ProvideMainServerProps {
