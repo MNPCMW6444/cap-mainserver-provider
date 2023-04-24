@@ -1,4 +1,5 @@
 import React, {
+  FunctionComponent
   ReactNode,
   useContext,
   useEffect,
@@ -32,7 +33,7 @@ const checkServerAvailability = async (axiosInstance: AxiosInstance) => {
   }
 };
 
-const ProvideMainServer = ({
+const ProvideMainServer : FunctionComponent<ProvideMainServerProps> = ({
   children,
   tryInterval,
 }: ProvideMainServerProps) => {
