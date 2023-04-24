@@ -6,8 +6,8 @@ import React, {
   useRef,
   useState,
 } from "react";
-import domain from "../config/domain";
-import { MainServerContext } from "../context/MainServerContext";
+import domain from "../config/domain.js";
+import { MainServerContext } from "../context/MainServerContext.js";
 import { AxiosInstance } from "axios";
 
 interface ProvideMainServerProps {

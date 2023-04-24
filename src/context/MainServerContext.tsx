@@ -1,5 +1,5 @@
 import axios from "axios";
-import domain from "../config/domain";
+import domain from "../config/domain.js";
 import { createContext } from "react";
 
 const axiosInstance = axios.create({
