@@ -1,6 +1,6 @@
 {
   "name": "@caphub-funding/mainserver-provider",
-  "version": "3.3.54",
+  "version": "3.3.56",
   "description": "mainserver provider for react apps",
   "type": "module",
   "main": "dist/index.js",
@@ -14,8 +14,9 @@
     "version:patch": "npm version patch --no-git-tag-version",
     "version:minor": "npm version minor --no-git-tag-version",
     "version:major": "npm version major --no-git-tag-version",
+    "update": "npx npm-check-updates -u",
     "clean": "rm -rf dist",
-    "build": "npm run clean && tsc && cp package.json README.md ./dist"
+    "build": "npm run clean && tsc && cp package.json ./dist"
   },
   "repository": {
     "type": "git",
