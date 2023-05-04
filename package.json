@@ -1,5 +1,5 @@
 {
-  "name": "@caphub-funding/mainserver-provider",
+  "name": "@caphub-group/mainserver-provider",
   "version": "3.4.57",
   "description": "mainserver provider for react apps",
   "type": "module",
@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CapHub-Funding/mainserver-provider.git"
+    "url": "git+https://github.com/CapHub-group/mainserver-provider.git"
   },
   "author": "Michael Nusair",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CapHub-Funding/mainserver-provider/issues"
+    "url": "https://github.com/CapHub-group/mainserver-provider/issues"
   },
-  "homepage": "https://github.com/CapHub-Funding/mainserver-provider#readme",
+  "homepage": "https://github.com/CapHub-group/mainserver-provider#readme",
   "devDependencies": {},
   "dependencies": {
     "@types/node": "^18.15.13",
