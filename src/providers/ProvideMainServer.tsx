@@ -1,12 +1,13 @@
 import React, {
+  FunctionComponent,
   ReactNode,
   useContext,
   useEffect,
   useRef,
   useState,
 } from "react";
-import domain from "../config/domain";
-import { MainServerContext } from "../context/MainServerContext";
+import domain from "../config/domain.js";
+import { MainServerContext } from "../context/MainServerContext.js";
 import { AxiosInstance } from "axios";
 
 interface ProvideMainServerProps {
@@ -32,7 +33,7 @@ const checkServerAvailability = async (axiosInstance: AxiosInstance) => {
   }
 };
 
-const ProvideMainServer = ({
+const ProvideMainServer: FunctionComponent<ProvideMainServerProps> = ({
   children,
   tryInterval,
 }: ProvideMainServerProps) => {
