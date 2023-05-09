@@ -1,6 +1,6 @@
 {
   "name": "@caphub-group/mainserver-provider",
-  "version": "4.6.59",
+  "version": "4.6.64",
   "description": "mainserver provider for react apps",
   "type": "module",
   "main": "dist/index.js",
@@ -28,13 +28,13 @@
     "url": "https://github.com/CapHub-group/mainserver-provider/issues"
   },
   "homepage": "https://github.com/CapHub-group/mainserver-provider#readme",
-  "devDependencies": {},
   "dependencies": {
-    "@types/node": "^20.1.1",
     "axios": "^1.4.0",
-    "@types/react": "^18.2.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.1",
+    "@types/react": "^18.2.6"
   }
 }
