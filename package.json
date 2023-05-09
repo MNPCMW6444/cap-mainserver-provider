@@ -1,6 +1,6 @@
 {
   "name": "@caphub-group/mainserver-provider",
-  "version": "4.6.58",
+  "version": "4.6.59",
   "description": "mainserver provider for react apps",
   "type": "module",
   "main": "dist/index.js",
